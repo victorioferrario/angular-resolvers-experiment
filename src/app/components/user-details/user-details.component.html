@@ -1,0 +1,21 @@
+<mat-card>
+    <mat-card-title>
+        User Detail
+    </mat-card-title>
+    <mat-card-content>
+        <div>
+            <p>
+                Name: {{ user.name }}
+            </p>
+            <p>
+                Card Number: {{ user.cardNumber }}
+            </p>
+            <p>
+                Card Type: {{ user.cardType }}
+            </p>
+        </div>
+    </mat-card-content>
+    <mat-card-actions>
+        <a href="javascript:void(0);" mat-button routerLink="/users" routerLinkActive="active">Back</a>
+    </mat-card-actions>
+</mat-card>

@@ -1,0 +1,72 @@
+// :host {
+//   display: flex;
+//   flex-direction: column;
+//   position: relative;
+//   top: 20px;
+//   height: 600px;
+//   width: 400px;
+//   margin: 0 auto;
+//   align-items: center;
+//   justify-content: center;
+//   overflow: hidden;
+//   border: solid 10px rgba(#fff, 0.15);
+//   border-radius: 4px;
+//   box-shadow: 2px 2px 6px rgba(#000, 0.4);
+// }
+
+// .avatars {
+//   margin-top: auto;
+//   height: 120px;
+//   //display: flex;
+//   z-index: 2;
+//   position: relative;
+//   left: 0;
+//   width: 100%;
+//   transition: all 0.55s ease-in-out;
+// }
+
+// .avatar {
+//   $size: 75px;
+//   display: inline-block;
+//   position: absolute;
+//   top: 125px;
+//   width: $size;
+//   height: $size;
+//   margin: $size / 8;
+//   padding: 2px;
+//   transition: all 0.15s ease-in-out;
+//   will-change: transform;
+//   a {
+//     display: block;
+//   }
+//   img {
+//     width: 100%;
+//     height: auto;
+//     border-radius: $size;
+//     border: solid 2px transparent;
+//     transition: all 0.2s;
+//   }
+//   .zoom-wrapper {
+//     transition: all 0.15s ease-in-out;
+//     &:hover,
+//     &.zoomed {
+//       transform: scale(1.25);
+//     }
+//   }
+//   &.active {
+//     transition-delay: 200ms;
+//     transform: scale(1.1);
+//     img {
+//       border: solid 2px rgba(#fff, 1);
+//       box-shadow: 5px 5px 1px rgba(0, 0, 0, 0.3);
+//     }
+//   }
+// }
+
+// main {
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   right: 0;
+//   bottom: 0;
+// }

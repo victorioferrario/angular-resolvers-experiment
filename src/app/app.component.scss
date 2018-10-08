@@ -1,0 +1,23 @@
+.app-loader {
+  position: absolute;
+  top: 65px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 10000;
+}
+
+.loader-wrapper {
+  width: 150px;
+  margin: auto;
+  text-align: center;
+  margin-top: 100px;
+}
+
+ul.app-nav {
+  list-style: none;
+}
+ul.app-nav li {
+  display: inline;
+}

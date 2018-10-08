@@ -1,0 +1,12 @@
+<mat-card>
+    <mat-nav-list>
+        <mat-list-item *ngFor="let person of people" routerLinkActive="active" id="person_{{person.id}}">
+            <a routerLink="./{{person.id}}" routerLinkActive="jello" class="animated" style='display:block;height:18px;'>
+                {{person.email}}
+            </a>
+        </mat-list-item>
+    </mat-nav-list>
+</mat-card>
+<main>
+    <router-outlet #outletRef="outlet"></router-outlet>
+</main>
